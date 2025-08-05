@@ -47,13 +47,14 @@ ShoppyGlobe is a basic e-commerce application built with React that allows users
 1. Clone the repo and change directory:
 
    git clone https://github.com/anshu-intern/-E-commerce-Application.git
+   cd -E-commerce-Application 
    cd e-commerce\ app 
 
-2. Install dependencies:
+3. Install dependencies:
     npm install
 
-3. Start the development server:
+4. Start the development server:
     npm run dev
 
-4. Open your browser at  http://localhost:5173/
+5. Open your browser at  http://localhost:5173/
     ➜  Local:   http://localhost:5173/
