@@ -4,6 +4,7 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import './index.css'
 import App from './App.jsx'
 
+//If lazy load is not used then below imports are required.
 //import Error from './components/Error.jsx'
 //import ProductList from './components/ProductList.jsx'
 //import ProductDetail from './components/ProductDetail.jsx'
