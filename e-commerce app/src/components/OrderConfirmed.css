@@ -1,0 +1,27 @@
+/*CSS styling for OrderConfirmed component*/
+
+.orderConfirmed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 20px;
+}
+
+.orderConfirmWait{
+    margin-top: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 900;
+}
+
+@media(max-width:768px){
+    .orderConfirmimg{
+        width: 100%;
+    }
+}

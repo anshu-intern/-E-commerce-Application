@@ -1,0 +1,20 @@
+/*CSS styling for Error component*/
+
+.errorSection{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.errorimage{
+    height: 400px;
+
+}
+
+.errorNav{
+    text-align: center;
+    font-size: 20px;
+}

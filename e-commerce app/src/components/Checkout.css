@@ -1,0 +1,91 @@
+/*CSS styling for Checkout component*/
+
+.checkoutPage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkoutPageDetails{
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    width: 60%;
+    padding: 30px;
+    border-top: 10px solid gold;
+}
+
+.cartSum{
+    box-sizing: border-box;
+    margin-top: 10px; 
+    width: 90%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cartsumitem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkoutItems{
+    font-weight: 900;
+}
+
+.itemDelivery{
+    font-weight: 900;
+    color: green;
+}
+
+.orderTotal{
+    font-weight: 900;
+}
+
+.cartPay{
+    box-sizing: border-box;
+    margin-top: 10px; 
+    width: 90%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.checkoutMsg{
+    padding: 10px;
+    color: red;
+    text-align: center;
+}
+
+.confirmOrder{
+    margin-top: 20px;
+    width: 200px;
+    height: 30px;
+    padding: 6px;
+    background-color: rgb(255, 221, 31);
+    border: 1px solid rgb(255, 217, 0);
+    border-radius: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media (max-width:768px){
+    .checkoutPageDetails{
+        width: 100%;
+        margin: 0px;
+    }
+}

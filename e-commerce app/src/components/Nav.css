@@ -1,0 +1,45 @@
+/*CSS styling for Nav component*/
+
+.nav-bar{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    height: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    list-style: none;
+    border: 2px solid black;
+    border-top: none;
+    overflow: hidden;
+}
+
+.listItem{
+    position: relative;
+    text-align: center;
+    padding: 10px 4px 10px 4px;
+}
+
+.listItem::first-letter{
+    text-transform: capitalize;
+}
+
+.list-div{
+    position: relative;
+    height: 98%;
+}
+
+.list-div:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.navLink{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,192 @@
+/*CSS styling for ProductDetail component*/
+
+.productDetail{
+    background-color: lightgray;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.productDetailmain{
+    position: relative;
+    width: 70%;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.productDetailImage{
+    box-sizing: border-box;
+    padding: 20px;
+    position: sticky;
+    top: 0px;
+    width: 30%;
+    max-height: 300px;
+    overflow: hidden;
+}
+.productDetailImage img{
+    position: relative;
+    height: 300px;
+    width: 100%;
+}
+
+.productDetailDesc{
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    
+}
+
+.goBack{    
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 8px;
+}
+
+.goBack:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.productgoBack{
+    position: relative;
+    height: 20px;
+}
+
+.productDetailAction{
+    position: relative;
+    width: 20%;
+}
+
+.productDetailReview{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.reviewuser{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.productDetailReviewItem{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);;
+}
+
+.productDetailDiscount{
+    color: red;
+    font-weight: 400;
+    padding-right: 8px;
+}
+
+.productDetailPrice{
+    font-weight: 900;
+}
+
+.productDetailInfo{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    list-style-position: inside;
+}
+
+.productSpecification{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 6px;
+}
+
+.productDetailAction{
+    box-sizing: border-box;
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 10px;
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    position: sticky;
+    top: 30px;
+}
+
+.productDetailAction select{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.productDetailAction button{
+    width: 100%;
+    height: 30px;
+    padding: 6px;
+    background-color: rgb(255, 221, 31);
+    border: 1px solid rgb(255, 217, 0);
+    border-radius: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+@media (max-width:1024px){
+    .productDetailmain{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    .productDetailImage{
+        position: relative;
+        width: 100%;
+        padding: 40px;
+    }
+    .productDetailDesc{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 16px;
+    }
+    .productDetailReview{
+        justify-content: center;
+        align-items: center;
+    }
+    .productDetailAction{
+        position: relative;
+        margin: 0px;
+        top: 0px;
+        width: 70%;
+        max-width: 300px;
+    }
+}

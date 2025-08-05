@@ -1,0 +1,105 @@
+/*CSS styling for ProductItem component*/
+
+.productItem {
+    position: relative;
+    height: 440px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    background-color: rgb(240, 240, 240);
+    overflow: hidden;
+}
+
+.itemThumb{
+    box-sizing: border-box;
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border: none;   
+}
+
+.itemThumb img{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+.itemThumb img:hover{
+    cursor: pointer;
+}
+
+.itemInfo{
+    position: relative;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 8px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 4px;
+}
+
+.itemBrand{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.itemTitle{
+    font-size: 16px;
+    font-weight: 900;
+}
+.itemTitleLink{
+    text-decoration: none;
+    color: black;
+}
+
+
+.itemTitleLink:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(255, 75, 35);
+}
+
+.itemRating{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.itemReview{
+    font-size: 14px;
+    font-weight: 500;
+    color: purple;
+}
+
+.itemPrice{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.itemDiscount{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.itemShip{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.addCartButton{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 221, 31);
+    border: 1px solid rgb(255, 217, 0);
+    border-radius: 20px;
+    font-weight: 400;
+}
+
+.addCartButton:hover{
+    background-color: rgb(255, 217, 0);
+    font-weight: 600;
+}
